@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>INDIApay - Payment Transfer</title>
+</head>
+<body>
+    <h3 class="myName"><span>Broomies Assignment by Chandra Pal Singh Shekhawat</span></h3>
+    <div class="container">
+        <div class="header">
+            <h1 class="title"><span class="blue">INDIA</span><span class="orange">pay</span></h1>
+            <div class="wallet-info">
+                <img id="wallet-icon" src="https://static.thenounproject.com/png/2004734-200.png" alt="Wallet Icon">
+                <p> <span id="walletAmount">&#x20B9; 1000</span></p>
+            </div>
+        </div>
+        
+        <div class="add-money">
+            
+            <h2><span class="green">ADD</span><span class="red">Money</span></h2>
+            <input type="number" id="addAmount" placeholder="Please enter the amount." min="1">
+            <button id="addButton">Add</button>
+        </div>
+        
+        <div class="send-money">
+            <h2><span class="green">SEND</span><span class="red">Money</span></h2>
+            <input type="text" id="recipientID" placeholder="Please enter recipient's user ID. example@upi">
+            <input type="number" id="sendAmount" placeholder="Enter amount to send." min="1">
+            <button id="sendButton">Send</button>
+        </div>
+        
+        <button id="transactionHistoryButton">Transaction History</button>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <p class="hoverable">About Us</p>
+            <p class="hoverable">Contact Us</p>
+            <p class="hoverable">Emergency Issue</p>
+        </div>
+        <p>Copyright &#169; INDIApay | Made by C.P. Singh</p>
+    </footer>
+</body>
+</html>

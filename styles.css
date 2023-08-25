@@ -1,0 +1,212 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply background image */
+body {
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+
+/*First heading*/
+.myName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    color: rgb(239, 152, 165);
+    font-family: "Times New Roman", Times, serif; /* Use Times New Roman font for 'Broomies' */
+    margin-top: 10px;
+}
+
+
+/* Container for the entire form */
+.container {
+    width: 80%;
+    margin: 40px auto 80px auto;
+    background-color: rgba(105, 75, 153, 0.5);
+    border: 2px solid purple;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+}
+
+/* Header section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Title "indiaPay" */
+.title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Styling for blue and orange parts of the title */
+.blue {
+    color: #007bff;
+}
+
+.orange {
+    color: #ff9800;
+}
+
+/* Styling for the Add money & send money */
+.green {
+    color: rgb(26, 142, 105);
+}
+
+.red {
+    color: #d2465e;
+}
+/* Wallet information */
+.wallet-info {
+    display: flex;
+    align-items: center;
+}
+
+/* Wallet icon*/
+#wallet-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 05px;
+    margin-bottom: 02px;
+}
+
+/* Add Money section */
+.add-money {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#addAmount,
+#addButton {
+  display: block;
+  /* Add any other styling you want for the input and button */
+}
+
+
+/*Add money input box*/
+#addAmount {
+    width: 480px;
+    height: 43px;
+    display: block;
+    margin: 20px auto;
+}
+
+/*Add button*/
+#addButton {
+    width: 120px;
+    background-color: #00ff04;
+    font-weight: bold;
+    font-size: large;
+    display: block;
+    margin: 0 auto 50px auto;
+}
+
+/* Send Money section */
+.send-money {
+    margin-top: 20px;
+}
+
+/*Send money UPI input box*/
+#recipientID {
+    width: 480px;
+    height: 43px;
+    display: block;
+    margin: 20px auto;
+}
+
+/*Send amount input box*/
+#sendAmount {
+    width: 480px;
+    height: 43px;
+    display: block;
+    margin: 20px auto;
+}
+
+/*send button*/
+#sendButton {
+    width: 120px;
+    background-color: #00ff04;
+    font-weight: bold;
+    font-size: large;
+    display: block;
+    margin: 0 auto 50px auto;
+}
+
+/*Transection history button*/
+#transactionHistoryButton {
+    background-color: #f43e5c;
+    font-weight: bold;
+}
+
+
+/* Footer section */
+footer {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-top: 2px solid purple;
+    color: #d3d3d3;
+}
+
+
+
+/* Hover effect for footer content */
+.hoverable:hover {
+    color: black;
+}
+
+/* Styling for buttons */
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Styling for input fields */
+input[type="number"], input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #007bff;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Styling for pop-up box */
+.popup {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    display: none;
+    z-index: 999;
+}
