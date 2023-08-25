@@ -13,6 +13,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0; 
+    background-color: black;
 }
 
 /*First heading*/
@@ -20,8 +21,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-style: italic;
-    color: rgb(239, 152, 165);
+    font-size: 25px;
+    color: rgb(255, 255, 255);
     font-family: "Times New Roman", Times, serif; /* Use Times New Roman font for 'Broomies' */
     margin-top: 10px;
 }
@@ -31,8 +32,8 @@ body {
 .container {
     width: 80%;
     margin: 40px auto 80px auto;
-    background-color: rgba(105, 75, 153, 0.5);
-    border: 2px solid purple;
+    background-color: white;
+    border: 2px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -64,22 +65,24 @@ body {
 
 /* Styling for the Add money & send money */
 .green {
-    color: rgb(26, 142, 105);
+    color: rgb(0, 0, 0);
 }
 
 .red {
-    color: #d2465e;
+    color: #2ebf3a;
 }
 /* Wallet information */
 .wallet-info {
     display: flex;
     align-items: center;
+    color: black;
 }
 
 /* Wallet icon*/
 #wallet-icon {
     width: 25px;
     height: 25px;
+    margin-left: 5px;
     margin-right: 05px;
     margin-bottom: 02px;
 }
@@ -109,11 +112,12 @@ body {
 /*Add button*/
 #addButton {
     width: 120px;
-    background-color: #00ff04;
+    background-color: #000000;
     font-weight: bold;
     font-size: large;
     display: block;
     margin: 0 auto 50px auto;
+    color: white;
 }
 
 /* Send Money section */
@@ -140,16 +144,17 @@ body {
 /*send button*/
 #sendButton {
     width: 120px;
-    background-color: #00ff04;
+    background-color: #000000;
     font-weight: bold;
     font-size: large;
     display: block;
     margin: 0 auto 50px auto;
+    color: white;
 }
 
 /*Transection history button*/
 #transactionHistoryButton {
-    background-color: #f43e5c;
+    background-color: #2ebf3a;
     font-weight: bold;
 }
 
@@ -174,7 +179,7 @@ footer {
 
 /* Hover effect for footer content */
 .hoverable:hover {
-    color: black;
+    color: rgb(51, 12, 245);
 }
 
 /* Styling for buttons */
